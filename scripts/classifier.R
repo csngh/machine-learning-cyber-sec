@@ -1,7 +1,3 @@
-#Name: Chetan Singh
-#Date: 02.12.18
-#Topic: Machine Learning in Cyber Security for Finding Vulnerabilities in a System 
-
 #[1.]------Importing essentail information------
 #Package for handling the data
 library(caTools)
