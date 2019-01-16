@@ -5,7 +5,7 @@ library(mlbench)
 library(caret)
 
 #[2.]-----Importing dataset-----
-dataset <- read.csv('system_logs_dummy.csv')
+dataset <- read.csv('system_logs_sample.csv')
 
 #[3.]-----Creating the trainging model-----
 #Creating multiple folds to train the data on
