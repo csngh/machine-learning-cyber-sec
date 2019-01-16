@@ -6,7 +6,7 @@ library(arulesViz)
 
 #[2.]-----Importing dataset-----
 #With headers and making columns as factor variables
-dataset <- read.csv('system_logs_dummy.csv', header = T, colClasses = 'factor')
+dataset <- read.csv('system_logs_sample.csv', header = T, colClasses = 'factor')
 #Removing irrelavant features w.r.t results from 'feature_ranking.R' script
 dataset <- dataset[, c(-2, -3, -4, -5, -6, -7, -10)]
 
