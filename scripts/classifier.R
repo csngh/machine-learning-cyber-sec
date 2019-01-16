@@ -7,7 +7,7 @@ library(randomForest)
 library(caret)
 
 #Importing dataset
-dataset <- read.csv('system_logs_dummy.csv')
+dataset <- read.csv('system_logs_sample.csv')
 #Dropping irrelevant features w.r.t results from 'feature_ranking.R' script
 dataset <- dataset[, c(-2, -3, -4, -5, -6, -7)]
 
