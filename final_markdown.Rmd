@@ -12,7 +12,7 @@ text-align: justify}
 
 ```{r maincode, echo=FALSE}
 library(ggplot2)
-dataset <- read.csv('system_logs_dummy.csv')
+dataset <- read.csv('system_logs_sample.csv')
 ```
 
 
